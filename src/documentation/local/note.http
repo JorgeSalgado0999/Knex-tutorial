@@ -1,0 +1,26 @@
+### create new note in port 3001
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "title": "this is my second note"
+}
+
+### get all notes in port 3001
+GET http://localhost:3001/notes
+
+### get note by id in port 3001
+GET http://localhost:3001/notes/74dac624-5e78-4dae-9b72-f2287ef044dc
+
+### update note by id in port 3001
+PUT http://localhost:3001/notes/adffc8c6-d053-4d3a-a445-951e4d62557c
+Content-Type: application/json
+
+{
+  "title": "this is my first note modificated",
+  "content": "i changed the content of this note"
+}
+
+### delete note by id in port 3001
+DELETE http://localhost:3001/notes/bf6b99e8-2a55-4a12-b666-2c0e6a8c7d59
+
