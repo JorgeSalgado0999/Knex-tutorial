@@ -20,6 +20,14 @@ Para instalar las dependencias del proyecto, ejecuta:
 npm install
 ```
 
+## Ejecución
+
+Para correr el proyecto ejecuta:
+
+```bash
+npm start
+```
+
 ## API Endpoints
 
 The API provides the following endpoints:
